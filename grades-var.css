@@ -1,0 +1,18 @@
+:root {
+  --bec-blue: #007CC3;
+  --dark-blue:#13398b;
+  --bec-lightGray: rgba(35,32,31,0.07);  
+  --full-page: 1200px;
+}
+/*Main parrent colors*/
+.gradek {--grade: #EE3B33;}
+.grade1 {--grade: #90489C;}
+.grade2 {--grade: #F8981D;}
+.grade3 {--grade: #00ACD4;}
+.grade4 {--grade: #F47324;}
+.grade5 {--grade: #00A48A;}
+.grade5 {--grade: #1C449C;}
+
+
+/*Unit0 styles*/
+[class^="grade"] h1, [class^="grade"] h2, [class^="grade"] h3 { color: var(--grade); }
